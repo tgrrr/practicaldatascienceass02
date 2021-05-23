@@ -22,7 +22,7 @@ import seaborn as sb
 # import os
 # os.getcwd()
 # data_file = 'Cervical Cancer Behavior Risk-DataSet.csv'
-data_file = '/Volumes/lenora/data-science/uni/2021/practicaldatascience/assignments/02assignment/s3725547/Cervical Cancer Behavior Risk-DataSet.csv'
+data_file = '/Volumes/lenora/data-science/uni/2021/practicaldatascience/assignments/02assignment/s3725547/data/Cervical Cancer Behavior Risk-DataSet.csv'
 df = pd.read_csv(data_file)
 
 df_cols = ['behavior_sexualRisk','behavior_eating','behavior_personalHygine','intention_aggregation','intention_commitment','attitude_consistency','attitude_spontaneity','norm_significantPerson','norm_fulfillment','perception_vulnerability','perception_severity','motivation_strength','motivation_willingness','socialSupport_emotionality','socialSupport_appreciation','socialSupport_instrumental','empowerment_knowledge','empowerment_abilities','empowerment_desires','ca_cervix']
